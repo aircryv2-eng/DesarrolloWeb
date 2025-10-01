@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  
+<div class="container-fluid">
+ <div class="row">
+    <div class="col-12 d-flex justify-content-start">
+      <div class="wire p-3 w-100">
+        <h5 class="mb-3">Formulario de Registro</h5>
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="duki@example.com" disabled>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Contraseña</label>
+            <input type="password" class="form-control" placeholder="********" disabled>
+          </div>
+          <button type="button" class="btn btn-primary" disabled>Registrar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" >
+    <div class="col-12 d-flex justify-content-start">
+      <div class="wire p-3" style="max-width:360px;">
+        <strong>Registro</strong>
+        <p class="mt-2 mb-3">El correo ya está en uso</p>
+        <button class="btn btn-outline-secondary" disabled>OK</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 d-flex justify-content-start">
+      <div class="wire p-3" style="max-width:360px;">
+        <strong>Registro</strong>
+        <p class="mt-2 mb-3">Contraseña invalida</p>
+        <button class="btn btn-outline-secondary" disabled>OK</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 d-flex justify-content-start">
+      <div class="wire p-3" style="max-width:360px;">
+        <strong>Registro</strong>
+        <p class="mt-2 mb-3">Te enviamos un correo de confirmación</p>
+        <button class="btn btn-outline-secondary" disabled>OK</button>
+      </div>    
+</div>
+
+</body>
+</html>
